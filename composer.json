@@ -1,6 +1,6 @@
 {
     "name": "ashwanigoyal/laravel-log-enhancer",
-    "description": "This is a small package to enhance the logs provided by laravel",
+    "description": "This is a small package to enhance the logs provided by laravel (5.6)",
     "type": "package",
     "authors": [
         {
