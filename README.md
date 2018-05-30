@@ -19,7 +19,7 @@ composer require ashwanigoyal/laravel-log-enhancer
 ```
 'production_stack' => [
     'driver' => 'stack',
-    'tap' => [Freshbitsweb\LaravelLogEnhancer\LogEnhancer::class],
+    'tap' => [Ashwanigoyal\LaravelLogEnhancer\LogEnhancer::class],
     'channels' => ['daily', 'slack'],
 ],
 ```
@@ -47,6 +47,7 @@ It has following configuration settings:
 ## Authors
 
 * [**Ashwani Goyal**](https://github.com/ashwani23)
+* [**Gaurav Makhecha**](https://github.com/gauravmak) - *Initial work*
 
 See also the list of [contributors](https://github.com/freshbitsweb/laravel-log-enhancer/graphs/contributors) who participated in this project.
 
